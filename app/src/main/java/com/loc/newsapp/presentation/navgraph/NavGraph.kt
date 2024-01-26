@@ -39,11 +39,7 @@ fun NavGraph(
             startDestination = Route.NewsNavigatorScreen.route
         ) {
             composable(route = Route.NewsNavigatorScreen.route) {
-                Box(modifier = Modifier.fillMaxWidth()) {
-                    Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                        Text(text = "NewsScreen")
-                    }
-                }
+                Text(text = "NewsScreen")
             }
          }
     }
